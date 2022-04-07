@@ -1,0 +1,315 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background: #333333;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+h2 {
+  text-transform: uppercase;
+  color: rgba(37, 104, 127);
+  padding: 20px;
+  font-size: 200%;
+  text-shadow: 5px 8px 8px #fafafa;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 23px;
+  font-weight: 100;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.content {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 960px;
+  width: 100%;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  text-transform: uppercase;
+  height: 51px;
+  width: 100%;
+}
+
+.navigation li a {
+  color: #fafafa;
+  text-decoration: none;
+}
+
+.introducao {
+  background-image: url(./images/banner.png);
+  width: 1140px;
+  height: 659px;
+}
+
+.logo {
+  margin: 2.4em 0 2.4em 120px;
+}
+
+.glass {
+  background-image: url(./images/glass.png);
+  width: 508px;
+  height: 218px;
+}
+
+.glass h2 {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.glass p {
+  margin-left: 35px;
+}
+
+.anuncios {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -100px;
+}
+
+.anuncio_1 {
+  background-image: url(./images/card-1-banner.png);
+  width: 346px;
+  height: 331px;
+  text-align: left;
+  font-size: 12px;
+  text-shadow: 2px 2px 10px black;
+}
+
+.anuncio_1 h3:first-child {
+  font-size: 26px;
+}
+
+.anuncio_1 h3 {
+  text-transform: uppercase;
+  color: #fafafa;
+  font-size: 16px;
+}
+
+.anuncio_1 div:first-child {
+  margin-left: 10%;
+  margin-top: 40px;
+}
+
+.anuncio_1 p {
+  text-transform: uppercase;
+  color: rgb(149, 254, 0);
+  text-shadow: 5px 8px 10px black;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 35px;
+}
+
+.card1 p:last-child {
+  font-size: 34px;
+}
+
+.card2 {
+  background-image: url(./images/card-2-banner.png);
+  width: 343px;
+  height: 330px;
+  padding: 20px;
+  text-shadow: 2px 2px 10px #fafafa;
+}
+
+.card2 h4 {
+  text-transform: uppercase;
+  color: rgb(11, 160, 159);
+  text-shadow: 3px 3px 10px #fafafa;
+  font-size: 30px;
+}
+.card2 h5 {
+  text-transform: uppercase;
+  color: rgb(228, 9, 125);
+  text-shadow: 3px 3px 10px #fafafa;
+  font-size: 40px;
+}
+
+.card2 p {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.card3 {
+  background-image: url(./images/card-3-banner.png);
+  width: 344px;
+  height: 329px;
+}
+
+.niveis {
+  background-image: url(./images/background-correto.png);
+  height: 305px;
+  width: 100%;
+  padding: 70px 40px 0 40px;
+  margin-top: 70px;
+}
+
+.grid {
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff;
+}
+
+.q-head {
+  justify-content: center;
+  display: flex;
+  position: relative;
+  padding: 2rem 0;
+  background: #333333;
+  color: white;
+  font-size: 24px;
+  text-transform: uppercase;
+  align-items: center;
+}
+
+.medalha {
+  position: absolute;
+  top: -39px;
+}
+
+.quadro {
+  max-width: 25%;
+  width: 100%;
+  border: 1px solid #cccccc;
+}
+.q-content {
+  padding: 15px;
+}
+
+.g-list {
+  display: flex;
+  line-height: 1.5rem;
+  font-weight: bold;
+}
+
+.ticket {
+  width: 20px;
+  height: 15px;
+  margin-right: 5px;
+}
+.divulgacao {
+  display: flex;
+  position: relative;
+  height: 250px;
+  margin-top: 200px;
+  justify-content: space-between;
+  max-width: 960px;
+  margin-left: 40px;
+}
+
+.divulgacao-container {
+  display: flex;
+}
+
+.img-viagem {
+  margin-right: 10px;
+}
+
+.contabilidade {
+  background-image: url(./images/card-footer-3.png);
+  background-repeat: no-repeat;
+  width: 344px;
+  height: 332px;
+  margin: 0 5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding-left: 121px;
+}
+
+.contabil {
+  margin: 25% 0;
+  position: absolute;
+  font-size: 26px;
+  font-weight: normal;
+}
+.indicacao {
+  margin: 290px 23px;
+  position: absolute;
+  font-size: 11px;
+}
+
+.juridico {
+  margin-left: 10px;
+}
+.tarjeta-clube {
+  margin-left: 38px;
+  width: 100%;
+  height: 294px;
+  margin-top: 170px;
+  color: rgb(255, 255, 255);
+}
+.tarjeta {
+  background-image: url("./images/bg-titulo.png");
+  width: 575px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+}
+
+.tarjeta h3 {
+  margin-left: 20px;
+}
+
+.descontos img {
+  margin: 55px 8px 0 0;
+  width: 200px;
+  height: 150px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px; 
+}
+
+.footer-rodape {
+  background-image: url(./images/background-correto.png);
+  background: #333333;
+  color: rgb(255, 255, 255);
+  margin-top: 38px;
+  padding: 20px 0;
+  width: 100%;
+}
+
+.rodape {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  font-size: 14px;
+}
+
+.paragrafos {
+  width: 168%;
+}
+
+.paragrafos p {
+  margin-bottom: 15px;
+}
+
+.footerend {
+  width: 50%;
+  margin: 0 10px;
+  flex-flow: column;
+}
+.footerend h4 {
+  text-transform: uppercase;
+}
+.tel {
+  color: rgb(48, 162, 200);
+  font-size: 20px;
+}
